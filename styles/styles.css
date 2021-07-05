@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  border-radius: 7px;
+  overflow: hidden;
+  margin: 3em auto;
+}
+
+.container h2 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-size: 2rem;
+}
+
+.container p {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    margin: 9.5em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-items: center;
+    width: 60%;
+  }
+}
+
+.card1,
+.card2,
+.card3 {
+  padding: 3em;
+}
+
+@media screen and (min-width: 1440px) {
+  .card1,
+  .card2,
+  .card3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 25em;
+  }
+}
+
+img {
+  max-width: 4em;
+}
+
+.button {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  max-width: 6em;
+  text-align: center;
+  padding: 1em;
+  display: inline-block;
+  border-radius: 30px;
+  background: #f2f2f2;
+}
+
+.card1 {
+  background: #e38826;
+}
+
+.card1 .button {
+  color: #e38826;
+}
+
+.card2 {
+  background: #006970;
+}
+
+.card2 .button {
+  color: #006970;
+}
+
+.card3 {
+  background: #004241;
+}
+
+.card3 .button {
+  color: #004241;
+}
+/*# sourceMappingURL=styles.css.map */
