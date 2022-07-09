@@ -14,7 +14,7 @@
 
 ## Overview
 
-3-column preview card component
+Created NEWBIE 3-column preview card component
 
 ### The challenge
 
