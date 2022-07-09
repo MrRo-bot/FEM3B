@@ -26,8 +26,8 @@ Making flexbox and alignment work properly
 
 ### Links
 
-- GITHUB REPO: [https://github.com/MrRo-bot/FEM3B]
-- Solution URL: [https://codepen.io/Mr-RO13OT/pen/ZEKQEGa?editors=1100]
+- GITHUB REPO: [https://github.com/MrRo-bot/column-preview-card]
+- Solution URL: [https://codepen.io/Mr-RO13OT/full/oNBPZVy]
 
 ## My process
 
